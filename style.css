@@ -151,3 +151,39 @@ img{
   text-align: center;
 }
 
+/* card */
+.card{
+  display: flex;
+  margin: 70px;
+
+}
+.card1, .card2, .card3{
+  border-radius: 10px;
+  margin: 40px;
+  padding: 40px;
+}
+.card1-icon img, .card2-icon img, .card3-icon img{
+  width: 18%;
+}
+.card1-text, .card2-text, .card3-text{
+  width: 80%;
+}
+.card1-text h1, .card2-text h1, .card3-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.card1-text h4, .card2-text h4, .card3-text h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.card1{
+  background-color: rgba(79, 157, 166, 0.192);
+}
+.card2{
+  background-color: rgb(255, 89, 89, 0.192);
+}
+.card3{
+  background-color: rgba(255, 244, 214, 0.911);
+}
